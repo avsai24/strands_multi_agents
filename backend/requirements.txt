@@ -1,3 +1,5 @@
 strands-agents
 boto3
 opensearch-py
+sympy
+strands-agents

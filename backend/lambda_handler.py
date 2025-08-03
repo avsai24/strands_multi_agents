@@ -1,7 +1,6 @@
 # backend/lambda_handler.py
 
-from agents.orchestrator import orchestrate
+from agents.math_agent import math_agent
 
 if __name__ == "__main__":
-    response = orchestrate("Hello, orchestrator!")
-    print(response)
+    print(math_agent("25 / 5 + 3"))
